@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            list-style-image: none;
+        }
+        li::before{
+            content: "";
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-size: cover;
+            margin-right: 8px;
+        }
+        .one::before{
+            background-image: url(images/apple.jpeg);
+        }
+        .two::before{
+            background-image: url(images/qare.jpeg);
+        }
+        .three::before{
+            background-image: url(images/liin-macaan.jpeg);
+        }
+        .four::before{
+            background-image: url(images/liin-dhanaan.jpeg);
+        }
+        .five::before{
+            background-image: url(images/liin-banbeelmo.jpeg);
+        }
+        *{
+            font-family: Arial;
+        }
+        #welcome{
+            color: rgba(0, 150, 0, 0.4);
+        }
+        .p1{
+            color: rgb(216, 6, 6);
+        }
+        h3{
+            color: rgba(0, 150, 0, 0.4);
+            font-style: italic;
+        }
+        footer{
+            
+        
+            color: white;
+            background-color: hsla(237, 80%, 39%, 0.7)
+            
+        
+        }
+    </style>
+    <link rel="stylesheet" href="menu-ga.css">
+</head>
+<body>
+    <header style="background-color: rgb(76, 76, 197);padding: 20px;text-align: center;color: white;"><h1>Shirkada Khudaarta - Home</h1></header>
+    <nav class="abdi">
+        <a href="index.html"><img src="images/home.jpeg" alt="Home image" width="100px" height="50px"></a>&nbsp;&nbsp;
+        <a href="about.html"><img src="images/about.jpeg" alt="About Us image" width="100px" height="50px"></a>
+    </nav>
+    
+        <main>
+    <div>
+    <h2 id="welcome">Welcome!</h2>
+    <p style="font-weight: bold;">Best fruits in town</p>
+    <ul class="list">
+        <li class="one">Tufaax </li>
+        <li class="two">Qare </li>
+        <li class="three">Liin-macaan</li>
+        <li class="four">Liin-Dhanaan</li>
+        <li class="five">Liin-Banbeelmo</li>
+    </ul>
+    <p class="p1">Special Offer: 20% Off!</p>
+    </div>
+    <div class="box">
+    <h3>Hours of Operation</h3>
+    <p>Sun - Mon: 8AM - 10pm</p>
+    </div>
+        
+
+        </main>
+    
+
+
+
+ <footer><h4>&copy;2026 Shirkada Khudaarta...</h4></footer>   
+</body>
+</html>
